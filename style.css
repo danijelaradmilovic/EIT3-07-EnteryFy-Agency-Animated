@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lora', serif;
+}
+.navbar a, h1, h2, h3, h4, h5, h6, .read-more-post, .brand, .bg-read-more {
+    font-family: 'Montserrat', sans-serif;
+}
+.section-padding-100 {
+    padding: 100px 0px;
+}
+
+/* ***** Navbar ***** */
+.navbar-brand {
+    font-size: 2rem;
+}
+.brand span {
+    color: pink;
+    margin-right: 10px;
+}
+.navbar ul li a {
+    border-bottom: 1px solid transparent;
+    transition: border-bottom .5s ease-in-out;
+}
+.navbar ul li:hover a {
+    border-bottom: 1px solid #d5d5d5;
+}
+.bg-transition {
+    transition: background-color .5s ease-in;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* ***** About Us ***** */
+.blockquote-footer {
+    font-size: 1rem;
+}
+#about img {
+   width: 80%;
+   border-radius: 50%;
+   display: block;
+   border: 1px solid #dee2e6;
+   padding: .25rem;
+}
+
+/* ***** Quote ***** */
+#quote {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/quote-bg.jpg');
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+}
+.quote-middle blockquote, .quote-middle .blockquote-footer {
+    font-size: 1.2rem;
+}
+
+/* ***** Blog ***** */
+.card-box {
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.card-box img {
+    transition: all 0.5s ease-in-out;
+}
+.card-box:hover img {
+    transform: scale(1.1);
+}
+.card-box h5 {
+    padding: 10px 0px;
+    border-bottom: 1px solid #fff;
+    transition: border-bottom .5s ease-in-out;
+}
+.card-box:hover h5 {
+    border-bottom: 1px solid #d5d5d5;
+}
+.read-more-post {
+    text-decoration: none;
+    color: pink;
+    font-weight: bold;
+    transition: color .5s ease-in-out;
+}
+.read-more-post:hover {
+    color: #333;
+}
+.date {
+    text-transform: uppercase;
+    font-size: .9rem;
+}
+.date i {
+    color: pink;
+    margin-right: 10px;
+}
+.bg-read-more {
+    padding: 10px 30px;
+    transition: all .5s ease-in-out;
+}
+.bg-read-more:hover {
+    background-color: pink;
+    border-color: pink;
+    color: #333;
+}
+
+/* ***** Footer ***** */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+}
+.footer i {
+    color: pink;    
+}
+.icon i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
